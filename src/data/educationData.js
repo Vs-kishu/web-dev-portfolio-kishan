@@ -1,8 +1,8 @@
 export const educationData = [
   {
     id: 1,
-    institution: "(University of Delhi)Shyam Lal College",
-    course: "Bachelor Degree",
+    institution: "(University of Delhi) Shyam Lal College",
+    course: "B.sc Physical Science with Computer Science",
     startYear: "2019",
     endYear: "2022",
   },

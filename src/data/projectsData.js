@@ -1,19 +1,19 @@
-import drumkit from "../assets/svg/projects/drumkit.svg";
+// import drumkit from "../assets/svg/projects/drumkit.svg";
 import netflix from "../assets/svg/projects/netflix.svg";
 import kui from "../assets/svg/projects/KUI icon.png";
 import capture from "../assets/svg/projects/CAPTURE.jpg";
 import friends from "../assets/svg/projects/friends.jpg";
 
 export const projectsData = [
-  {
-    id: 1,
-    projectName: "Drum-kit",
-    projectDesc: "This project is responsive sound drum kit",
-    tags: ["Javascript", "HTML", "CSS"],
-    code: "https://github.com/Vs-kishu/Drum-kit.git",
-    demo: "https://vs-kishu.github.io/Drum-kit/",
-    image: drumkit,
-  },
+  // {
+  //   id: 1,
+  //   projectName: "Drum-kit",
+  //   projectDesc: "This project is responsive sound drum kit",
+  //   tags: ["Javascript", "HTML", "CSS"],
+  //   code: "https://github.com/Vs-kishu/Drum-kit.git",
+  //   demo: "https://vs-kishu.github.io/Drum-kit/",
+  //   image: drumkit,
+  // },
   {
     id: 2,
     projectName: "Netflix-clone",
