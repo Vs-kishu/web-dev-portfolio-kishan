@@ -3,6 +3,7 @@ import netflix from "../assets/svg/projects/netflix.svg";
 import kui from "../assets/svg/projects/KUI icon.png";
 import capture from "../assets/svg/projects/CAPTURE.jpg";
 import friends from "../assets/svg/projects/friends.jpg";
+import connectThread from "../assets/svg/projects/connect-thread.svg";
 
 export const projectsData = [
   // {
@@ -51,5 +52,14 @@ export const projectsData = [
     code: "https://github.com/Vs-kishu/MEMORY_CAPTURE_CLIENT.git",
     demo: "https://capture-memory.netlify.app/posts",
     image: capture,
+  },
+  {
+    id: 6,
+    projectName: "Connect-Thread",
+    projectDesc: "It is social media app  like thread",
+    tags: ["Next", "clerk", "typescript", "tailwind css"],
+    code: "https://github.com/Vs-kishu/Connect-thread",
+    demo: "https://connect-thread.vercel.app/",
+    image: connectThread,
   },
 ];
