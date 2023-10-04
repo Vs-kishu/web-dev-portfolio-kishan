@@ -5,7 +5,6 @@ import { projectsData } from "../../data/projectsData";
 
 import "./Projects.css";
 import SingleProject from "./SingleProject/SingleProject";
-import Marquee from "react-fast-marquee";
 
 function Projects() {
   const { theme } = useContext(ThemeContext);
@@ -21,32 +20,33 @@ function Projects() {
           <div className="projects--header">
             <h1 style={{ color: theme.primary }}>Projects</h1>
           </div>
+          <div>
+            <video
+              src="https://res.cloudinary.com/dngrtoqfe/video/upload/v1696386183/website/cefbuynfyytewprxxgap.mp4"
+              controls={true}
+              loop={true}
+              autoPlay={true}
+              width={700}
+              height={500}
+            />
+          </div>
+
           <div className="projects--body">
             <div className="projects--bodyContainer">
               <div className="projects--scroll">
-                <Marquee
-                  gradient={false}
-                  speed={80}
-                  pauseOnHover={true}
-                  pauseOnClick={true}
-                  delay={0}
-                  play={true}
-                  direction="Right"
-                >
-                  {projectsData.map((project) => (
-                    <SingleProject
-                      theme={theme}
-                      key={project.id}
-                      id={project.id}
-                      name={project.projectName}
-                      desc={project.projectDesc}
-                      tags={project.tags}
-                      code={project.code}
-                      demo={project.demo}
-                      image={project.image}
-                    />
-                  ))}
-                </Marquee>
+                {projectsData.map((project) => (
+                  <SingleProject
+                    theme={theme}
+                    key={project.id}
+                    id={project.id}
+                    name={project.projectName}
+                    desc={project.projectDesc}
+                    tags={project.tags}
+                    code={project.code}
+                    demo={project.demo}
+                    image={project.image}
+                  />
+                ))}
               </div>
             </div>
           </div>
