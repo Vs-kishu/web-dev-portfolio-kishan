@@ -34,7 +34,7 @@ export const projectsData = [
     projectDesc: "A Custom CSS Library",
     tags: ["HTML", "CSS"],
     code: "https://github.com/Vs-kishu/K-UI.git",
-    demo: "https://app.netlify.com/sites/k-ui-34/",
+    demo: "https://k-ui-34.netlify.app/",
     image:
       "https://res.cloudinary.com/dngrtoqfe/image/upload/v1696396117/website/fservxri6kk4wzg54sut.png",
   },
