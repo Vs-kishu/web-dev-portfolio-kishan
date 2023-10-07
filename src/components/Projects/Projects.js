@@ -20,21 +20,11 @@ function Projects() {
           <div className="projects--header">
             <h1 style={{ color: theme.primary }}>Projects</h1>
           </div>
-          <div>
-            <video
-              src="https://res.cloudinary.com/dngrtoqfe/video/upload/v1696386183/website/cefbuynfyytewprxxgap.mp4"
-              controls={true}
-              loop={true}
-              autoPlay={true}
-              width={700}
-              height={500}
-            />
-          </div>
 
           <div className="projects--body">
             <div className="projects--bodyContainer">
               <div className="projects--scroll">
-                {projectsData.map((project) => (
+                {projectsData.map((project, index) => (
                   <SingleProject
                     theme={theme}
                     key={project.id}

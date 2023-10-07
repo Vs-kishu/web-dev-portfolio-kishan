@@ -1,3 +1,4 @@
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -5,7 +6,6 @@
   justify-content: flex-start;
   min-height: fit-content;
   overflow-x: hidden;
-  padding: 2rem;
 }
 
 .projects--header {
@@ -40,7 +40,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-    justify-content: center;
+  justify-content: center;
   
 }
 

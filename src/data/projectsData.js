@@ -70,7 +70,7 @@ export const projectsData = [
       "https://res.cloudinary.com/dngrtoqfe/image/upload/v1696397759/website/akj0okeld0ozm54bbk3c.png",
   },
   {
-    id: 5,
+    id: 7,
     projectName: "Hang",
     projectDesc: "simple social media app like insta",
     tags: ["Node Js", "Express Js", "React", "Redux", "tailwind"],

@@ -35,7 +35,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
   const classes = useStyles();
 
   return (
-    <Fade left>
+    <Fade right>
       <div
         key={id}
         className="singleProject"
