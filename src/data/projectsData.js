@@ -10,6 +10,16 @@ export const projectsData = [
   // },
   {
     id: 1,
+    projectName: "Anjaan Property",
+    projectDesc: "DEaling of real Property with owner",
+    tags: ["MERN stack"],
+    code: "https://github.com/Vs-kishu/ANJAAN-PROPERTY",
+    demo: "https://anjaan-property.vercel.app/",
+    image:
+      "https://res.cloudinary.com/dngrtoqfe/image/upload/v1698291670/website/fuycmti2p9q6v8ooklld.png",
+  },
+  {
+    id: 1,
     projectName: "Anjaan-Baba-Store",
     projectDesc: "An-Ecommerce site with All features",
     tags: ["React", "Miragejs", "MUI"],
