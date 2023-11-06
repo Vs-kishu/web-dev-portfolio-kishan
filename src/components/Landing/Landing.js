@@ -1,15 +1,15 @@
-import { Button } from "@material-ui/core";
-import { makeStyles } from "@material-ui/core/styles";
-import React, { useContext } from "react";
-import { NavHashLink as NavLink } from "react-router-hash-link";
-import Typed from "react-typed";
-import { ThemeContext } from "../../contexts/ThemeContext";
-import { headerData } from "../../data/headerData";
-import { socialsData } from "../../data/socialsData";
-import KishanResume from "./KISHAN(ONE).pdf";
-import "./Landing.css";
+import { Button } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
+import React, { useContext } from 'react';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+import Typed from 'react-typed';
+import { ThemeContext } from '../../contexts/ThemeContext';
+import { headerData } from '../../data/headerData';
+import { socialsData } from '../../data/socialsData';
+import './Landing.css';
+import KishanResume from './krishnaverma.pdf';
 
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 function Landing() {
   const { theme, drawerOpen } = useContext(ThemeContext);
@@ -17,45 +17,45 @@ function Landing() {
   const useStyles = makeStyles((t) => ({
     resumeBtn: {
       color: theme.primary,
-      borderRadius: "30px",
-      textTransform: "inherit",
-      textDecoration: "none",
-      width: "150px",
-      fontSize: "1rem",
-      fontWeight: "500",
-      height: "50px",
-      fontFamily: "var(--primaryFont)",
+      borderRadius: '30px',
+      textTransform: 'inherit',
+      textDecoration: 'none',
+      width: '150px',
+      fontSize: '1rem',
+      fontWeight: '500',
+      height: '50px',
+      fontFamily: 'var(--primaryFont)',
       border: `3px solid ${theme.primary}`,
-      transition: "100ms ease-out",
-      "&:hover": {
+      transition: '100ms ease-out',
+      '&:hover': {
         backgroundColor: theme.buttonColor,
         color: theme.secondary,
         border: `3px solid ${theme.buttonColor}`,
       },
-      [t.breakpoints.down("sm")]: {
-        width: "180px",
+      [t.breakpoints.down('sm')]: {
+        width: '180px',
       },
     },
     contactBtn: {
       backgroundColor: theme.primary,
       color: theme.secondary,
-      borderRadius: "30px",
-      textTransform: "inherit",
-      textDecoration: "none",
-      width: "150px",
-      height: "50px",
-      fontSize: "1rem",
-      fontWeight: "500",
-      fontFamily: "var(--primaryFont)",
+      borderRadius: '30px',
+      textTransform: 'inherit',
+      textDecoration: 'none',
+      width: '150px',
+      height: '50px',
+      fontSize: '1rem',
+      fontWeight: '500',
+      fontFamily: 'var(--primaryFont)',
       border: `3px solid ${theme.primary}`,
-      transition: "100ms ease-out",
-      "&:hover": {
+      transition: '100ms ease-out',
+      '&:hover': {
         backgroundColor: theme.buttonColor,
         color: theme.secondary,
         border: `3px solid ${theme.buttonColor}`,
       },
-      [t.breakpoints.down("sm")]: {
-        display: "none",
+      [t.breakpoints.down('sm')]: {
+        display: 'none',
       },
     },
   }));
@@ -113,7 +113,7 @@ function Landing() {
           alt=""
           className="landing--img"
           style={{
-            opacity: `${drawerOpen ? "0" : "1"}`,
+            opacity: `${drawerOpen ? '0' : '1'}`,
             borderColor: theme.primary,
           }}
         />
@@ -126,14 +126,14 @@ function Landing() {
             <h1>{headerData.name}</h1>
             <Typed
               strings={[
-                "Backend Developer",
-                "Frontend Developer",
-                "Fullstack Developer",
+                'Backend Developer',
+                'Frontend Developer',
+                'Fullstack Developer',
               ]}
               typeSpeed={40}
               backSpeed={50}
               className="typed-header"
-              style={{ color: theme.primary, fontSize: "20px" }}
+              style={{ color: theme.primary, fontSize: '20px' }}
               loop
             />
             <p>{headerData.desciption}</p>
