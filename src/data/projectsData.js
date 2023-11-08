@@ -1,15 +1,16 @@
 export const projectsData = [
-  // {
-  //   id: 1,
-  //   projectName: "Drum-kit",
-  //   projectDesc: "This project is responsive sound drum kit",
-  //   tags: ["Javascript", "HTML", "CSS"],
-  //   code: "https://github.com/Vs-kishu/Drum-kit.git",
-  //   demo: "https://vs-kishu.github.io/Drum-kit/",
-  //   image: drumkit,
-  // },
   {
     id: 1,
+    projectName: 'Chill Junction',
+    projectDesc: 'Social Media App',
+    tags: ['React', 'Appwrite', 'React-Query'],
+    code: 'https://github.com/Vs-kishu/Chill-Junctions.git',
+    demo: 'https://chill-junction.vercel.app/',
+    image:
+      'https://res.cloudinary.com/dngrtoqfe/image/upload/v1699441949/website/ighif5nis0kf8g9ysomi.png',
+  },
+  {
+    id: 2,
     projectName: 'Anjaan Property',
     projectDesc: 'DEaling of real Property with owner',
     tags: ['MERN stack'],
@@ -19,7 +20,7 @@ export const projectsData = [
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1698291670/website/fuycmti2p9q6v8ooklld.png',
   },
   {
-    id: 1,
+    id: 3,
     projectName: 'Anjaan-Baba-Store',
     projectDesc: 'An-Ecommerce site with All features',
     tags: ['React', 'Miragejs', 'MUI'],
@@ -29,7 +30,7 @@ export const projectsData = [
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1696396301/website/kwuyvbzlxiasqd6u7nd3.png',
   },
   {
-    id: 2,
+    id: 4,
     projectName: 'Multi-step-form',
     projectDesc: 'Register with multi-step form with proper validation',
     tags: ['Javascript', 'React', 'Tailwind', 'React-hook-form'],
@@ -40,7 +41,7 @@ export const projectsData = [
   },
 
   {
-    id: 4,
+    id: 5,
     projectName: 'Captury-Memory',
     projectDesc:
       'simple social media app that allows users to post interesting events that happened in their lives',
@@ -51,7 +52,7 @@ export const projectsData = [
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1696396817/website/hds4hrymkuo4eldxr0hi.png',
   },
   {
-    id: 5,
+    id: 6,
     projectName: 'Search-countries',
     projectDesc: 'Simple Searching details about countries in world',
     tags: ['React', 'tailwind', 'vite', 'framer-motion'],
@@ -61,7 +62,7 @@ export const projectsData = [
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1696396117/website/q1gekjzrens2nzvyxtwo.png',
   },
   {
-    id: 6,
+    id: 7,
     projectName: 'BT-Videos',
     projectDesc: 'Video Streaming plaftform',
     tags: ['React', 'tailwind', 'javascript', 'parcel'],
@@ -71,7 +72,7 @@ export const projectsData = [
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1696396118/website/zi05104umpdogzli3hhp.png',
   },
   {
-    id: 7,
+    id: 8,
     projectName: 'Netflix-clone',
     projectDesc:
       'A Netflix clone front-end that fetches data of movies and details using Tmbd API and presents it using React.js, API, and CSS',
@@ -82,7 +83,7 @@ export const projectsData = [
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1699284168/website/qd8o10pt9q5603f2ivvu.png',
   },
   {
-    id: 8,
+    id: 9,
     projectName: 'Email-Management',
     projectDesc: 'Email management system',
     tags: ['React', 'tailwind', 'javascript', 'Vite'],
@@ -93,7 +94,7 @@ export const projectsData = [
   },
 
   {
-    id: 9,
+    id: 10,
     projectName: 'code-Editor',
     projectDesc: 'Basic Code Editor',
     tags: ['HTML', 'CSS', 'JavaScript', 'React'],
@@ -103,7 +104,7 @@ export const projectsData = [
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1697715695/website/cmauzqzyqqbtelofqqkf.png',
   },
   {
-    id: 10,
+    id: 11,
     projectName: 'CRUD Table',
     projectDesc: 'CRUD operation table',
     tags: ['HTML', 'CSS', 'JavaScript'],
@@ -113,7 +114,7 @@ export const projectsData = [
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1699283911/website/yuwyfvb5r8ldawqrayct.png',
   },
   {
-    id: 11,
+    id: 12,
     projectName: 'Connect-Thread',
     projectDesc: 'It is social media app  like thread',
     tags: ['Next', 'clerk', 'typescript', 'tailwind css'],
@@ -123,7 +124,7 @@ export const projectsData = [
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1696397759/website/akj0okeld0ozm54bbk3c.png',
   },
   {
-    id: 12,
+    id: 13,
     projectName: 'Hang',
     projectDesc: 'simple social media app like insta',
     tags: ['Node Js', 'Express Js', 'React', 'Redux', 'tailwind'],
