@@ -7,7 +7,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 import './Landing.css';
-import KishanResume from './krishnavermanew.pdf';
+import KishanResume from './kishan2024.pdf';
 
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
@@ -141,7 +141,7 @@ function Landing() {
             <div className="lcr-buttonContainer">
               <a
                 href={KishanResume}
-                download="Kishan Resume"
+                download="Krishna Kant Verma"
                 target="_blank"
                 rel="noreferrer"
               >
