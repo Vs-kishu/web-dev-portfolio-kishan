@@ -73,12 +73,12 @@ export const projectsData = [
   },
   {
     id: 8,
-    projectName: 'Relax-Zone',
+    projectName: 'chill-Zone',
     projectDesc:
       'A Movies search website fetches data of movies and details using Tmbd API and presents it using React.js, API, and CSS',
     tags: ['Javascript', 'React', 'CSS', 'API', 'firebase', 'OpenAI API'],
-    code: 'https://github.com/Vs-kishu/movies-world.git',
-    demo: 'https://relax-zone-git-main-vs-kishu.vercel.app/',
+    code: 'https://github.com/Vs-kishu/Relax-Zone',
+    demo: 'https://cinemate-zone.vercel.app/',
     image:
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1699284168/website/qd8o10pt9q5603f2ivvu.png',
   },
