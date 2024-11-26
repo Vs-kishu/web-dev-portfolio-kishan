@@ -3,7 +3,7 @@ export const projectsData = [
     id: 1,
     projectName: 'Tokari',
     projectDesc: 'Stoarge App',
-    tags: ['Next', 'Typescript', 'Appwrite', 'tailwind css','shadcn],
+    tags: ['Next', 'Typescript', 'Appwrite', 'tailwind css','shadcn'],
     code: 'https://github.com/Vs-kishu/Tokari-Storage-Management-Plaftform',
     demo: 'https://tokari-storage-management-plaftform.vercel.app/',
     image:
@@ -144,14 +144,14 @@ export const projectsData = [
       'https://res.cloudinary.com/dngrtoqfe/image/upload/v1696397961/website/gjhrn0lwidzkxpvu72xd.png',
   },
 
-  // {
-  //   id: 3,
-  //   projectName: 'K-UI',
-  //   projectDesc: 'A Custom CSS Library',
-  //   tags: ['HTML', 'CSS'],
-  //   code: 'https://github.com/Vs-kishu/K-UI.git',
-  //   demo: 'https://k-ui-34.netlify.app/',
-  //   image:
-  //     'https://res.cloudinary.com/dngrtoqfe/image/upload/v1696396117/website/fservxri6kk4wzg54sut.png',
-  // },
+  {
+    id: 3,
+    projectName: 'K-UI',
+    projectDesc: 'A Custom CSS Library',
+    tags: ['HTML', 'CSS'],
+    code: 'https://github.com/Vs-kishu/K-UI.git',
+    demo: 'https://k-ui-34.netlify.app/',
+    image:
+      'https://res.cloudinary.com/dngrtoqfe/image/upload/v1696396117/website/fservxri6kk4wzg54sut.png',
+  },
 ];
