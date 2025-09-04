@@ -7,7 +7,7 @@ import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 import './Landing.css';
-import KishanResume from './kishan2024.pdf';
+import KishanResume from './NewResume.pdf';
 
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
@@ -126,9 +126,8 @@ function Landing() {
             <h1>{headerData.name}</h1>
             <Typed
               strings={[
-                'Backend Developer',
-                'Frontend Developer',
-                'Fullstack Developer',
+                'Software Engineer'
+                'Full Stack Developer',
               ]}
               typeSpeed={40}
               backSpeed={50}
