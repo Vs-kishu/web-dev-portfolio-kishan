@@ -1,7 +1,7 @@
 export const aboutData = {
   title: "Who I am",
-  description1: "My name is Krishna Kant Verma.",
+  description1: "🚀 Hi, I’m Krishna Kant Verma",
   description2:
-    "My journey as a web developer is fueled by a desire to continuously learn, innovate, and elevate my craft. While I've accomplished significant feats in just a year, my sights are set on becoming a recognized expert in the sector. I am committed to staying ahead of trends, refining my skills, and contributing to the advancement of web development.",
+    "My journey as a Software Engineer & Web Developer is driven by a passion for continuous learning, innovation, and building impactful digital solutions. In just a year, I’ve achieved strong milestones, but my vision goes beyond—towards becoming a recognized expert in the field. I am committed to staying ahead of industry trends, refining my technical expertise, and delivering scalable, user-focused applications that create real value. With each project, I strive not only to solve problems but also to push the boundaries of what’s possible in web development.",
   image: 1,
 };
