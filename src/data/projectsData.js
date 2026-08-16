@@ -1,4 +1,13 @@
-export const projectsData = [
+export const projectsData = [  {
+    id: 89,
+    projectName: 'Payment Gateway',
+    projectDesc: 'Payment Gateway',
+    tags: ['Next'],
+    code: 'https://github.com/Vs-kishu/Payment-Gateway.git',
+    demo: 'https://payment-gateway-kohl.vercel.app/',
+    image:
+      'https://res.cloudinary.com/dngrtoqfe/image/upload/v1786861429/website/payment_gateway_screenshot_rn3mtj.png',
+  },
   {
     id: 1,
     projectName: 'Tokari',
